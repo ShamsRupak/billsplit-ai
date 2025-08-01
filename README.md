@@ -6,6 +6,12 @@
 [![MongoDB](https://img.shields.io/badge/MongoDB-6.x-green.svg)](https://www.mongodb.com/)
 [![Flutter](https://img.shields.io/badge/Flutter-3.x-blue.svg)](https://flutter.dev/)
 
+## 🚀 Live Demo
+
+- **Frontend**: [http://localhost:3000](http://localhost:3000) (Run locally)
+- **Backend API**: [http://localhost:5000](http://localhost:5000) (Run locally)
+- **GitHub Repository**: [https://github.com/ShamsRupak/billsplit-ai](https://github.com/ShamsRupak/billsplit-ai)
+
 ## 🚀 Overview
 
 BillSplit.ai is a modern expense-sharing application that combines the functionality of Splitwise with cutting-edge AI features. Built for Gen Z users, it offers seamless expense tracking, smart receipt scanning with AI parsing, and intuitive group expense management.
@@ -317,6 +323,137 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **GitHub**: [@ShamsRupak](https://github.com/ShamsRupak)
 - **Email**: shams@billsplit.ai
 - **Website**: [billsplit.ai](https://billsplit.ai)
+
+## 📈 Project Status
+
+### ✅ Completed (40%)
+
+#### Frontend
+- ✅ Project setup with Vite + React + TypeScript
+- ✅ TailwindCSS integration with custom design system
+- ✅ Enhanced HomePage with modern UI/UX
+- ✅ Enhanced LoginPage with glassmorphism design
+- ✅ Basic UI components (Button, Card, Input, Label)
+- ✅ Authentication context setup
+- ✅ Redux store configuration
+- ✅ React Query integration
+
+#### Backend
+- ✅ Project structure and architecture
+- ✅ MongoDB models (User, Group, Expense, Transaction)
+- ✅ Basic authentication endpoints
+- ✅ JWT token implementation
+- ✅ Error handling middleware
+- ✅ Input validation setup
+
+#### Mobile
+- ✅ Flutter project initialization
+- ✅ Dependencies configuration
+- ✅ Basic project structure
+
+#### DevOps
+- ✅ GitHub repository setup
+- ✅ CI/CD pipeline with GitHub Actions
+- ✅ Docker configuration
+- ✅ ESLint and Prettier setup
+
+### 🚧 In Progress (20%)
+
+#### Frontend
+- 🚧 Register page enhancement
+- 🚧 Dashboard layout and components
+- 🚧 Protected route implementation
+- 🚧 Group management UI
+- 🚧 Expense creation forms
+
+#### Backend
+- 🚧 Complete API endpoints implementation
+- 🚧 Receipt scanning integration
+- 🚧 Email service setup
+- 🚧 File upload handling
+
+### 📋 TODO (40%)
+
+#### Core Features
+- [ ] AI Receipt Scanning with OCR
+- [ ] Natural Language Processing for expense parsing
+- [ ] Smart expense splitting algorithms
+- [ ] Payment integration (Stripe, PayPal, Venmo)
+- [ ] Real-time notifications with WebSockets
+- [ ] Group chat functionality
+- [ ] Activity feed
+- [ ] Transaction history and reports
+- [ ] Settlement suggestions algorithm
+- [ ] QR code generation for group invites
+
+#### Frontend Pages & Components
+- [ ] Groups listing page
+- [ ] Group details page
+- [ ] Expense details page
+- [ ] Profile page
+- [ ] Settings page
+- [ ] Receipt upload component
+- [ ] Expense split calculator
+- [ ] Payment method management
+- [ ] Notification center
+- [ ] Search and filters
+
+#### Backend Services
+- [ ] Receipt parsing service
+- [ ] Payment processing service
+- [ ] Notification service
+- [ ] Email templates
+- [ ] Background job queue
+- [ ] Data analytics endpoints
+- [ ] Export functionality (CSV, PDF)
+
+#### Mobile App
+- [ ] Authentication screens
+- [ ] Main navigation
+- [ ] Group management screens
+- [ ] Expense creation flow
+- [ ] Camera integration for receipts
+- [ ] Push notifications
+- [ ] Offline support
+- [ ] Biometric authentication
+
+#### Testing & Documentation
+- [ ] Unit tests (80% coverage target)
+- [ ] Integration tests
+- [ ] E2E test scenarios
+- [ ] API documentation with Swagger
+- [ ] User documentation
+- [ ] Developer documentation
+
+#### Production Readiness
+- [ ] Environment configuration
+- [ ] Security audit
+- [ ] Performance optimization
+- [ ] Monitoring setup (Sentry)
+- [ ] Analytics integration
+- [ ] Backup strategies
+- [ ] Rate limiting
+- [ ] CORS configuration
+- [ ] SSL certificates
+
+### 🎯 Next Steps
+
+1. **Complete core frontend pages** (Register, Dashboard, Groups)
+2. **Implement receipt scanning** with AI integration
+3. **Build expense creation and splitting** functionality
+4. **Add real-time features** with Socket.io
+5. **Integrate payment providers**
+6. **Complete mobile app** basic functionality
+7. **Deploy MVP** to production
+
+### 📊 Estimated Timeline
+
+- **Phase 1** (Current - 2 weeks): Complete frontend UI/UX
+- **Phase 2** (2-4 weeks): Core backend functionality
+- **Phase 3** (4-6 weeks): AI integration and receipt scanning
+- **Phase 4** (6-8 weeks): Mobile app development
+- **Phase 5** (8-10 weeks): Testing and deployment
+- **Phase 6** (10-12 weeks): Production launch
 
 ---
 
