@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import axios from 'axios';
+import { API_ENDPOINTS } from '../config/api';
 
 interface User {
   id: string;
@@ -51,7 +52,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
   const fetchUser = async (authToken: string) => {
     try {
-      const response = await axios.get('http://localhost:5000/api/auth/me', {
+      const response = await fetch(API_ENDPOINTS.auth.login, {
         headers: { Authorization: `Bearer ${authToken}` }
       });
       setUser(response.data);

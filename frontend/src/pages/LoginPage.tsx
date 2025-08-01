@@ -7,6 +7,7 @@ import { Label } from '@/components/ui/label';
 import { Eye, EyeOff, LogIn, Sparkles } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import axios from 'axios';
+import { API_ENDPOINTS } from '../config/api';
 
 const LoginPage: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -31,7 +32,7 @@ const LoginPage: React.FC = () => {
     setError('');
 
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/login', formData);
+      const response = await axios.post(API_ENDPOINTS.auth.login, formData);
       login(response.data.access_token);
       navigate('/dashboard');
     } catch (error: any) {
