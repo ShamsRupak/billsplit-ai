@@ -1,0 +1,52 @@
+{
+  "name": "billsplit-ai",
+  "version": "1.0.0",
+  "description": "Smart expense sharing platform with AI-powered receipt scanning",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "npm run build:backend && npm run build:frontend",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "test": "npm run test:backend && npm run test:frontend",
+    "test:backend": "cd backend && npm test",
+    "test:frontend": "cd frontend && npm test",
+    "test:e2e": "cd frontend && npm run test:e2e",
+    "lint": "npm run lint:backend && npm run lint:frontend",
+    "lint:backend": "cd backend && npm run lint",
+    "lint:frontend": "cd frontend && npm run lint",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "prepare": "husky install",
+    "deploy:backend": "cd backend && npm run deploy",
+    "deploy:frontend": "cd frontend && npm run deploy"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShamsRupak/billsplit-ai.git"
+  },
+  "keywords": [
+    "expense-sharing",
+    "splitwise",
+    "ai",
+    "receipt-scanning",
+    "mern-stack",
+    "flutter"
+  ],
+  "author": "Shams Rupak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShamsRupak/billsplit-ai/issues"
+  },
+  "homepage": "https://github.com/ShamsRupak/billsplit-ai#readme"
+}
